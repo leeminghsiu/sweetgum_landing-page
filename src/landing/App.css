@@ -1,0 +1,7 @@
+.App {
+    cursor: url(./component/icon/leaf.png), default;
+}
+
+.btn {
+    cursor: url(./component/icon/leaf.png), pointer;
+}
