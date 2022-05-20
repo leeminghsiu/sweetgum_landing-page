@@ -24,10 +24,10 @@ export default function Footer() {
       <Grid container spacing={2} sx={{m: 5}}>
         <Grid item md={4}>
           <Box>
-            <Typography variant="h6" gutterBottom component="div">
+            <Typography variant="h6" gutterBottom component="div" fontFamily={'Montserrat'}>
               About
             </Typography>
-            <Typography variant="body1" gutterBottom component="div">
+            <Typography variant="body1" gutterBottom component="div" >
               <a href='https://www.sweetgum.xyz/' >HODO</a>
             </Typography>
             <Typography variant="body1" gutterBottom component="div">
@@ -40,7 +40,7 @@ export default function Footer() {
         </Grid>
         <Grid item md={4}>
           <Box>
-          <Typography variant="h6" gutterBottom component="div" sx={{ml: 1}}>
+          <Typography variant="h6" gutterBottom component="div" fontFamily={'Montserrat'} sx={{ml: 1} }>
               Contact
             </Typography>
             <Typography variant="body1" gutterBottom component="div" sx={{ml: 1}}>
@@ -57,7 +57,7 @@ export default function Footer() {
         </Grid>
         <Grid item md={4}>
           <Box>
-            <Typography variant="h6" gutterBottom component="div" sx={{ml: 1}}>
+            <Typography variant="h6" gutterBottom component="div" fontFamily={'Montserrat'} sx={{ml: 1}}>
               Newsletter
             </Typography>
 

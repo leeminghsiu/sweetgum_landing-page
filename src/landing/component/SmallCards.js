@@ -6,8 +6,10 @@ import Typography from '@mui/material/Typography';
 
 export default function SmallCards() {
   return (
-    <Stack direction="row" spacing={3} sx={{mt: 10}}>
-      <Paper elevation={20} sx={{width: '33%', display: 'flex', boxShadow: '20px 30px 50px rgba(174, 246, 173, 67)'}}>
+    <Box sx={{display: 'flex', justifyContent: 'space-between' ,mt: 10, '@media (max-width: 780px)': {flexDirection:'column', alignItems: 'center'}}}>
+      <Paper elevation={20} sx={{width: '30%', display: 'flex', boxShadow: '20px 30px 50px rgba(174, 246, 173, 67)',
+    '@media (max-width: 780px)': {width: '100%'}
+                            }}>
         <Box sx={{m: 3, display: 'flex', flexDirection: 'column'}}>
           <Typography variant="h5" gutterBottom component="div">
             <Typography variant="h5"  component='span' color={ 'primary' }> Green </Typography> Academy
@@ -20,12 +22,13 @@ export default function SmallCards() {
         </Box>
       </Paper>
 
-      <Paper elevation={20} sx={{width: '33%', display: 'flex', boxShadow: '20px 30px 50px rgba(174, 246, 173, 67)'}}>
+      <Paper elevation={20} sx={{width: '30%', display: 'flex', boxShadow: '20px 30px 50px rgba(174, 246, 173, 67)',
+    '@media (max-width: 780px)': {width: '100%', marginTop: '1rem'}}}>
         <Box sx={{m: 3, display: 'flex', flexDirection: 'column'}}>
           <Typography variant="h5" gutterBottom component="div">
             <Typography variant="h5"  component='span' color={ 'primary' }> Green </Typography> Fellowship
           </Typography>
-          <Typography variant="body1" gutterBottom component="div">
+          <Typography variant="body1" gutterBottom component="div" sx={{flexGrow: 1}}>
             Receive support for launching locally <br />
             Semester-long fellowship program with token incentive to cultivate a environmental-conscious community around you.
             Web3 environmental revolution starting from your community. 
@@ -34,12 +37,13 @@ export default function SmallCards() {
         </Box>
       </Paper>
 
-      <Paper elevation={20} sx={{width: '33%', display: 'flex', boxShadow: '20px 30px 50px rgba(174, 246, 173, 67)'}}>
+      <Paper elevation={20} sx={{width: '30%', display: 'flex', boxShadow: '20px 30px 50px rgba(174, 246, 173, 67)',
+    '@media (max-width: 780px)': {width: '100%', marginTop: '1rem'}}}>
         <Box sx={{m: 3, display: 'flex', flexDirection: 'column'}}>
           <Typography variant="h5" gutterBottom component="div">
           < Typography variant="h5"  component='span' color={ 'primary' }> Green </Typography> Partnership
           </Typography>
-          <Typography variant="body1" gutterBottom component="div">
+          <Typography variant="body1" gutterBottom component="div" sx={{flexGrow: 1}}>
             Working with top companies on ESG 
             Long-term strategic initatives to work with environmentally friendly and sustainable companies to incentivize climate actions and behavior changes.
             Global partnerships with leading companies to delivery impact. 
@@ -48,6 +52,6 @@ export default function SmallCards() {
         </Box>
       </Paper>
 
-  </Stack>
+  </Box>
   );
 }

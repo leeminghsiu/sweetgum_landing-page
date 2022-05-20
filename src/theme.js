@@ -1,6 +1,4 @@
 import { createTheme } from '@mui/material/styles';
-import React from 'react';
-import ReactDOM from 'react-dom/client';
 
 const Theme = createTheme({
   typography: {
@@ -15,7 +13,7 @@ const Theme = createTheme({
       fontFamily: 'Montserrat'
     },
     h6: {
-      fontFamily: 'Montserrat'
+      fontFamily: 'Mulish'
     },
   },
   palette: {
@@ -44,6 +42,7 @@ const Theme = createTheme({
         root: {
           // Some CSS
           borderRadius: '50px',
+          fontFamily: 'Montserrat'
         },
       },
     },

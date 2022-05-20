@@ -3,6 +3,7 @@ import Box from '@mui/material/Box';
 import { Button } from '@mui/material';
 import IconButton from '@mui/material/IconButton';
 import Stack from '@mui/material/Stack';
+import '../App.css'
 
 import Linkedin from './icon/Linkedin.png'
 import Telegram from './icon/Telegram.png'
@@ -19,7 +20,7 @@ export default function Nav() {
         <Button color='textColor'>Green-to-earn</Button>
         <Button color='textColor'>Vision Paper</Button>
       </Box>
-      <Stack direction="row" spacing={1} sx={{my: 'auto'}}>
+      <Stack direction="row" className='nav_stack' spacing={1} sx={{my: 'auto'}}>
         <IconButton><img src={Linkedin} width={24} height={24}/></IconButton>
         <IconButton><img src={Telegram} width={24} height={24}/></IconButton>
         <IconButton><img src={Twitter} width={24} height={24}/></IconButton>

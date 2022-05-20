@@ -5,3 +5,11 @@
 .btn {
     cursor: url(./component/icon/leaf.png), pointer;
 }
+
+@media (max-width: 780px) {
+
+    .nav_stack img, .nav_stack button {
+        display:none;
+    }
+    
+}
