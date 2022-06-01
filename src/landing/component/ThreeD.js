@@ -2,11 +2,12 @@ import React, { Suspense } from 'react';
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls, PresentationControls } from '@react-three/drei';
 import Round from './Round'
+import Tree from './Tree'
 
 export default function App() {
    return (
     <Canvas
-        camera={{ position: [100, 100, 30], fov: 100 }}
+        camera={{ position: [100, 0, 600], fov: 100 }}
         style={{
         backgroundColor: 'rgba(0, 0, 0, 0)',
         width: '100%',
@@ -24,11 +25,13 @@ export default function App() {
             speed={1} // Speed factor
             zoom={1} // Zoom factor when half the polar-max is reached
             rotation={[0, 0, 0]} // Default rotation
-            polar={[100, Math.PI / 2]} // Vertical limits
+            polar={[0, Math.PI / 2]} // Vertical limits
             azimuth={[-Infinity, Infinity]} // Horizontal limits
             config={{ mass: 1, tension: 170, friction: 26 }} // Spring config
         >
-                <Round position={[0, 0, 0]} />
+
+                <Tree position={[0, -600, 0]} />
+                {/*<Round position={[0, 0, 0]} />*/}
         </PresentationControls>
         </Suspense>
         {/* <OrbitControls /> */}

@@ -21,8 +21,8 @@ function App() {
         <GreenToEarn />
         <SmallCards />
         <Team />
-        <Partner />
-        <Roadmap />
+        {/*<Partner />*/}
+        {/*<Roadmap />*/}
         <Footer />
       </Container>
     </div>
