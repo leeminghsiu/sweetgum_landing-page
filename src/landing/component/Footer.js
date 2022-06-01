@@ -24,11 +24,11 @@ export default function Footer() {
       <Grid container spacing={2} sx={{m: 5}}>
         <Grid item md={4}>
           <Box>
-            <Typography variant="h6" gutterBottom component="div" fontFamily={'Montserrat'}>
+            <Typography variant="h6" gutterBottom component="div" fontFamily={'Montserrat'} sx={{fontWeight: '700'}}>
               About
             </Typography>
             <Typography variant="body1" gutterBottom component="div" >
-              <a href='https://www.sweetgum.xyz/' >HODO</a>
+              <a href='https://www.sweetgum.xyz/' >OFFSET</a>
             </Typography>
             <Typography variant="body1" gutterBottom component="div">
               <a href='https://www.sweetgum.xyz/'>Terms of Service</a>
@@ -40,7 +40,7 @@ export default function Footer() {
         </Grid>
         <Grid item md={4}>
           <Box>
-          <Typography variant="h6" gutterBottom component="div" fontFamily={'Montserrat'} sx={{ml: 1} }>
+          <Typography variant="h6" gutterBottom component="div" fontFamily={'Montserrat'} sx={{ml: 1, fontWeight: '700'} }>
               Contact
             </Typography>
             <Typography variant="body1" gutterBottom component="div" sx={{ml: 1}}>
@@ -57,12 +57,12 @@ export default function Footer() {
         </Grid>
         <Grid item md={4}>
           <Box>
-            <Typography variant="h6" gutterBottom component="div" fontFamily={'Montserrat'} sx={{ml: 1}}>
+            <Typography variant="h6" gutterBottom component="div" fontFamily={'Montserrat'} sx={{ml: 1 , fontWeight: '700'}}>
               Newsletter
             </Typography>
 
             <Typography variant="body1" gutterBottom component="div" sx={{ml: 1}}>
-              Enter your e-mail to follow GreenFi revolution
+              Enter your e-mail to follow #GreenFi revolution
             </Typography>
 
             <Paper
@@ -71,11 +71,11 @@ export default function Footer() {
             >
               <InputBase
                 sx={{ ml: 1, flex: 1 }}
-                placeholder="Your E-mail"
-                inputProps={{ 'aria-label': 'Your E-mail' }}
+                placeholder="Your e-mail"
+                inputProps={{ 'aria-label': 'Your e-mail' }}
               />
               <Button type="submit" variant='contained' sx={{ p: '10px', borderRadius: '0 5px 5px 0'}} aria-label="search">
-                Submit
+                Subscribe
               </Button>
             </Paper>
 

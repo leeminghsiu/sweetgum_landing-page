@@ -12,7 +12,7 @@ export default function Person() {
     return (
       <Box sx={{display: 'flex', flexDirection: 'column', alignItems: 'center', m: 3}}>
         <Avatar alt="Remy Sharp" src={Example} sx={{width: 100, height: 100}}/>
-        <Typography variant="body1" gutterBottom component="div" sx={{m: 0}}>
+        <Typography variant="body1" gutterBottom component="div" sx={{m: 0}} fontWeight={'bold'}>
         Jing Sun
         </Typography>
         <Typography variant="body1" gutterBottom component="div" sx={{m: 0}}>

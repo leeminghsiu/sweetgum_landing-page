@@ -1,32 +1,40 @@
 import { createTheme } from '@mui/material/styles';
+import { hover } from '@testing-library/user-event/dist/hover';
 
 const Theme = createTheme({
   typography: {
+    fontWeightLight: 300,
+    fontWeightRegular: 300,
+    fontWeightMedium: 300,
+    fontWeightBold: 700,
     fontFamily: [
       'Mulish',
       'Montserrat'
     ].join(','),
     h4: {
-      fontFamily: 'Montserrat'
+      fontFamily: 'Montserrat',
+      fontWeight: '700'
     },
     h5: {
-      fontFamily: 'Montserrat'
+      fontFamily: 'Montserrat',
+      fontWeight: '700'
     },
     h6: {
-      fontFamily: 'Mulish'
+      fontFamily: 'Mulish',
     },
   },
   palette: {
     action: {
-      disabledBackground: '#7CA871',
+      disabledBackground: '#44AC21',
       disabled: '#ffffff'
     },
     primary: {
-      main: '#28BC00',
+      main: '#5FC92E',
       contrastText: '#ffffff'
     },
     secondary: {
-      main: '#F8F8FA',
+      main: '#44AC21',
+      contrastText: '#ffffff'
     },
     textColor: {
       main: '#000000'
@@ -42,8 +50,10 @@ const Theme = createTheme({
         root: {
           // Some CSS
           borderRadius: '50px',
-          fontFamily: 'Montserrat'
-        },
+          fontFamily: 'Montserrat',
+          fontWeight: '700',
+          backgroundColor: '#44AC21',
+        }
       },
     },
     MuiPaper: {
@@ -52,7 +62,7 @@ const Theme = createTheme({
         root: {
           // Some CSS
           borderRadius: '50px',
-          background: '#F8F8FA'
+          backgroundColor: '#FBFCFF'
         },
       },
     },

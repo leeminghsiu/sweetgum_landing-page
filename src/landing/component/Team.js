@@ -10,7 +10,7 @@ export default function Team() {
     <Box sx={{mt: 10}}>
         <Paper elevation={3} sx={{display: 'flex', flexDirection: 'column', alignItems: 'center', p: 5, boxShadow :'10px 20px 20px rgba(0, 0, 0, 0.2)'}}>
           <Typography variant="h4" gutterBottom component="div">
-            Leading <Typography variant="h4"  component='span' color={ 'primary' }> GreenFi </Typography> Revolution
+          Sweetgum is Leading a #<Typography variant="h4"  component='span' color={ 'primary' }> GreenFi </Typography> Revolution
           </Typography>
           <Typography variant="body1" gutterBottom component="div">
             Carbon neutral by 2050 is the most imperative mission in human history
