@@ -8,8 +8,7 @@ import InputBase from '@mui/material/InputBase';
 export default function GreenToEarn() {
   return (
     <Box sx={{display: 'flex', '& > :not(style)': {mt: 5, width: '100%'}}}>
-        <Paper elevation={20} sx={{display: 'flex', alignItems: 'center', 
-                                  boxShadow: '30px 40px 50px rgba(174, 246, 173, 67)', bgcolor: '#F8F8FA',
+        <Paper elevation={10} sx={{display: 'flex', alignItems: 'center', 
                                   '@media (max-width: 780px)': {flexDirection:'column', alignItems: 'center'}
                                   }}>
           <Box sx={{width: '40%', display: 'flex'}}><Typography 

@@ -7,7 +7,7 @@ import Typography from '@mui/material/Typography';
 export default function SmallCards() {
   return (
     <Box sx={{display: 'flex', justifyContent: 'space-between' ,mt: 10, '@media (max-width: 780px)': {flexDirection:'column', alignItems: 'center'}}}>
-      <Paper elevation={20} sx={{width: '30%', display: 'flex', backgroundColor: '#FBFCFF', boxShadow: '20px 30px 50px rgba(174, 246, 173, 67)',
+      <Paper elevation={10} sx={{width: '30%', display: 'flex', backgroundColor: '#FBFCFF',
     '@media (max-width: 780px)': {width: '100%'}
                             }}>
         <Box sx={{m: 3, display: 'flex', flexDirection: 'column', alignItems:'center'}}>
@@ -23,7 +23,7 @@ export default function SmallCards() {
         </Box>
       </Paper>
 
-      <Paper elevation={20} sx={{width: '30%', display: 'flex', backgroundColor: '#FBFCFF', boxShadow: '20px 30px 50px rgba(174, 246, 173, 67)',
+      <Paper elevation={10} sx={{width: '30%', display: 'flex', backgroundColor: '#FBFCFF',
     '@media (max-width: 780px)': {width: '100%', marginTop: '1rem'}}}>
         <Box sx={{m: 3, display: 'flex', flexDirection: 'column', alignItems:'center'}}>
           <Typography variant="h5" gutterBottom component="div">
@@ -38,7 +38,7 @@ export default function SmallCards() {
         </Box>
       </Paper>
 
-      <Paper elevation={20} sx={{width: '30%', display: 'flex', backgroundColor: '#FBFCFF', boxShadow: '20px 30px 50px rgba(174, 246, 173, 67)',
+      <Paper elevation={10} sx={{width: '30%', display: 'flex', backgroundColor: '#FBFCFF',
     '@media (max-width: 780px)': {width: '100%', marginTop: '1rem'}}}>
         <Box sx={{m: 3, display: 'flex', flexDirection: 'column', alignItems:'center'}}>
           <Typography variant="h5" gutterBottom component="div">

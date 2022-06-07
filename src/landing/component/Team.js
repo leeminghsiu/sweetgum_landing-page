@@ -22,7 +22,7 @@ import Vera from './profile/Vera.png';
 export default function Team() {
   return (
     <Box sx={{mt: 10}}>
-        <Paper elevation={3} sx={{display: 'flex', flexDirection: 'column', alignItems: 'center', p: 5, boxShadow :'10px 20px 20px rgba(0, 0, 0, 0.2)'}}>
+        <Paper elevation={10} sx={{display: 'flex', flexDirection: 'column', alignItems: 'center', p: 5}}>
           <Typography variant="h4" gutterBottom component="div">
           Sweetgum is Leading a #<Typography variant="h4"  component='span' color={ 'primary' }> GreenFi </Typography> Revolution
           </Typography>
